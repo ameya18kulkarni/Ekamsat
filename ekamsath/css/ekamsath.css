@@ -1,0 +1,33 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.trail{
+    background-color: green;
+}
+.bg{
+    background-color:grey;
+    
+}
+li a{
+ text-decoration-color: white;
+}
+
+.navbar-nav{
+    text-decoration-color: white;
+    margin-left:67%;
+    
+}
+.headerlink{
+    color:red;
+}
+.headleft{
+    margin-left: 65%;
+}
+
+.colwhite{
+    color:black;
+}
+.nav-item{
+    color:white;
+}
+

@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:600);
+
+*{
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.header{
+  overflow: hidden;
+  padding: 10px 10px;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+.body1{
+  overflow: hidden;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 15px;
+  border: 2px solid white;
+
+}
+.header a:hover {
+  border-bottom:none;
+  border: 2px solid green ;
+  transition-duration: 0.7s;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  border-bottom: 2px solid black;
+  color: black;
+  font:bold;
+
+}
+.header a.active:hover {
+  border-bottom: 2px solid green;
+  color: black;
+  font:bold;
+	
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header  {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header1{
+      float: right;
+  }
+  .navbar{
+      text-align:right;
+  }
+  .header-right {
+    float: none;
+  }
+}
+.quotes{
+  height: 200px;
+ 
+}
+.quotes-1, 
+.quotes-2, 
+.quotes-3 {
+  position: absolute;
+  
+  font-size:29px;
+  padding-top:3%;
+  width: 60%;
+  
+
+  animation-duration: 20s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+
+}
+
+.quotes-1{
+  animation-name: anim-1;
+}
+
+.quotes-2{
+  animation-name: anim-2;
+}
+
+.quotes-3{
+  animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+  0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 100%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+  0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+  0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+.ngotitle{
+  font-size: 40px;
+  padding
+ 
+  
+}
+
+.classdes{
+  font-size: 20px;
+  
+}
+
+.maincont{
+  background-image: linear-gradient(to right, #80ffcc , #00b300); 
+}
+
+.button-1{
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 16px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  
+  
+}
+
+.ngocard{
+  width:40%;
+  float:left;
+  
+}
+
+.cardlist{
+  margin-left:15%;
+  margin-right: 15%;
+  display: inline-block;
+  
+}
+.ngocard1{
+  float: right;
+  width:40%;
+}
+
+h4{
+  color:white;
+  font-style: bold;
+}
+
+.card-body{
+  width:100%;
+  padding:none;
+  
+}
+
+.cardback{
+  background-color: darkslategray;
+  width:100%;
+  padding:none;
+  margin:none;
+}
