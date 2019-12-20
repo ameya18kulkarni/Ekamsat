@@ -1,33 +1,69 @@
+/* Global */
 body {
-    font-family: 'Roboto', sans-serif;
-}
-.trail{
-    background-color: green;
-}
-.bg{
-    background-color:grey;
-    
-}
-li a{
- text-decoration-color: white;
+    font-family: 'Nunito', sans-serif;
 }
 
-.navbar-nav{
-    text-decoration-color: white;
-    margin-left:67%;
-    
-}
-.headerlink{
-    color:red;
-}
-.headleft{
-    margin-left: 65%;
+
+/* End of Global Styling */
+
+
+
+/* Home Styling */
+
+ .ngocard1{
+     margin-top: 50px;
+     margin-bottom: 25px;
+     border-bottom-right-radius: 20px;
+ }
+
+ .ngocard{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
-.colwhite{
-    color:black;
+
+ .cardbtn{
+     background-color: #99c666;
+     color:white;
+ }
+ .cardbtn:hover{
+     background-color: white;
+     border-color:#99c666;
+     color:#99c666;
+ }
+ .headleft{
+     margin-left: 65%;
+ }
+
+ .foot1{
+     background-color: grey;
+ }
+
+ .top1{
+     margin-right:10%;
+     
+ }
+
+ .form1{
+     margin-left:10%;
+ }
+
+
+/* End Home Styling  */
+.textgreen{
+    color: #99c666;
 }
-.nav-item{
-    color:white;
+
+
+
+
+
+
+.green-heading {
+    color: #99c666;
+    font-size: 35px;
 }
+
+
+
 

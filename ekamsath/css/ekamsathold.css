@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    }
+.trail{
+    background-color: green;
+}
+.bg{
+    background-color:grey;
+    
+}
+li a{
+ text-decoration-color: white;
+}
+
+.navbar-nav{
+    text-decoration-color: white;
+    margin-left:50%;
+    
+}
+.headerlink{
+    color:red;
+}
+.headleft{
+    margin-left: 65%;
+}
+
+.colwhite{
+    color:black;
+}
+.nav-item{
+    color:white;
+}
+
+.imagedimensions{
+  width:100%;
+  height:150px;
+ }   
+
+.maincardbody{
+    margin-top: 80px;
+    margin-left: 35%;
+    
+}
+
+.card1{
+    align-content: center;
+}
+.centre1{
+    margin-left: 35%;
+}
+.vsmmap{
+    margin-left:50%;
+}
+.vsmadd{
+    background-color: green;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+ }
+ .cardholder{
+     margin-left: 25%;
+ }
+ .ngocard1{
+     margin-top: 70px;
+     margin-bottom: 25px;
+ }
+
+ .ngocard{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+ .cardngoname{
+     color: #99c666;
+     font-size: 30px;
+ }
+ .cardngodes{
+     font-size: 15px;
+ }
+ .cardbtn{
+     background-color: #99c666;
+     color:white;
+ }
+ .cardbtn:hover{
+     background-color: white;
+     border-color:#99c666;
+     color:#99c666;
+ }
+ .headleft{
+     margin-left: 65%;
+ }
+
+ .foot1{
+     background-color: grey;
+ }
+
+ .top1{
+     margin-right:10%;
+     
+ }
+
+ .form1{
+     margin-left:10%;
+ }
